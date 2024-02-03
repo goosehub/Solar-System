@@ -31,15 +31,6 @@ public class Ship : GravityObject {
 	int numCollisionTouches;
 	bool hatchOpen;
 
-	KeyCode ascendKey = KeyCode.Space;
-	KeyCode descendKey = KeyCode.LeftShift;
-	KeyCode rollCounterKey = KeyCode.Q;
-	KeyCode rollClockwiseKey = KeyCode.E;
-	KeyCode forwardKey = KeyCode.W;
-	KeyCode backwardKey = KeyCode.S;
-	KeyCode leftKey = KeyCode.A;
-	KeyCode rightKey = KeyCode.D;
-
 	void Awake () {
 		InitRigidbody ();
 		targetRot = transform.rotation;
